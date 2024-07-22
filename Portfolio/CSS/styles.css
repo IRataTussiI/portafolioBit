@@ -1,0 +1,51 @@
+body {
+    font-family: "Epilogue", sans-serif;
+    background-color: #f9d4dd;
+    margin: 0;
+    padding: 0;
+}
+.noborder {
+    display: flex   ;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    color: gold;
+    margin: 15px 45px;
+}
+
+.image-menu {
+    
+    margin: 15px 45px;
+}
+
+#image-menu{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.parrafo1 p {
+    color: blue;
+    flex-wrap: wrap-reverse;
+}
+.imagen-foto {
+    border: 1px solid black;
+    width: 100px;
+}
+#section2 {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
