@@ -1,51 +1,27 @@
-body {
-    font-family: "Epilogue", sans-serif;
-    background-color: #f9d4dd;
-    margin: 0;
+* {
+    border: 1px dotted black;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.noborder {
-    display: flex   ;
+
+.container {
+    display: flex;
     justify-content: space-between;
-    background-color: white;
-    margin: 0px;
-    padding: 0px;
+    align-items: center;
+    width: 90%;
+    margin: 26px auto;
+}
+
+ul.main-menu {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    display: flex;
 }
 
 .logo {
-    color: gold;
-    margin: 15px 45px;
-}
-
-.image-menu {
-    
-    margin: 15px 45px;
-}
-
-#image-menu{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-.parrafo1 p {
-    color: blue;
-    flex-wrap: wrap-reverse;
-}
-.imagen-foto {
-    border: 1px solid black;
-    width: 100px;
-}
-#section2 {
-    background-color: white;
-    margin: 0;
-    padding: 0;
-}
-p {
-    margin: 0;
-    padding: 0;
-}
-hr{
-    margin: 0;
-    padding: 0;
+    font-family: "Epilogue", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
