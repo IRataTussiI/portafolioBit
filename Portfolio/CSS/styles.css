@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header {
+    background-color: aquamarine;
+}
 
 .container {
     display: flex;
@@ -11,6 +14,10 @@
     align-items: center;
     width: 90%;
     margin: 26px auto;
+    
+}
+nav.navbar {
+    display: none;
 }
 
 ul.main-menu {
@@ -24,4 +31,24 @@ ul.main-menu {
     font-family: "Epilogue", sans-serif;
     font-size: 20px;
     font-weight: 600;
+}
+
+@media ( min-width: 768px ) {
+    .header {
+        background-color: aqua;
+        
+    }
+    .logo-image {
+        display: none;
+    }
+    nav.navbar{
+        display: flex;
+    }
+
+}
+@media ( min-width: 768px) {
+
+}
+@media (min-width:992px) {
+
 }
