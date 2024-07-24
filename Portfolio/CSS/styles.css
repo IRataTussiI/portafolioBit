@@ -1,12 +1,10 @@
 * {
-    border: 1px dotted black;
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.header {
-    background-color: aquamarine;
-}
+
 
 .container {
     display: flex;
@@ -25,6 +23,14 @@ ul.main-menu {
     margin: 0 ;
     padding: 0;
     display: flex;
+    gap: .5rem;
+}
+ul.main-menu li a {
+text-decoration: none;
+color: black;
+}
+.main-menu li a:hover {
+    color: gray;
 }
 
 .logo {
@@ -34,10 +40,6 @@ ul.main-menu {
 }
 
 @media ( min-width: 768px ) {
-    .header {
-        background-color: aqua;
-        
-    }
     .logo-image {
         display: none;
     }
