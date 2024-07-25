@@ -1,3 +1,15 @@
+:root {
+    --black: #000000;
+    --charleston-green-v1: #2D2D2D;
+    --charleston-green-v2: #2B2B2B;
+    --white: #FFFFFF;
+    --pink-lace: #F9E6F0;
+    --piggy-pink: #F6DCE9;
+    --paolo-veronese-green: #009379;
+    --anti-flash-white: #F3F3F3;
+    --color-menu-link : var(--charleston-green-v1)
+    
+}
 * {
 
     padding: 0;
@@ -24,10 +36,13 @@ ul.main-menu {
     padding: 0;
     display: flex;
     gap: .5rem;
+    font-family: "Epilogue", sans-serif;
+    font-size: 20px;
+
 }
 ul.main-menu li a {
 text-decoration: none;
-color: black;
+color: var(--charleston-green-v1);
 }
 .main-menu li a:hover {
     color: gray;
