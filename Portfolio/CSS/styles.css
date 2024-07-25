@@ -19,12 +19,16 @@
 
 
 .container {
+
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.logo-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
     margin: 26px auto;
-    
 }
 nav.navbar {
     display: none;
@@ -52,6 +56,10 @@ color: var(--charleston-green-v1);
     font-family: "Epilogue", sans-serif;
     font-size: 20px;
     font-weight: 600;
+}
+
+.bio {
+    background-color: var(--pink-lace);
 }
 
 @media ( min-width: 768px ) {
